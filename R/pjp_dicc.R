@@ -10,8 +10,8 @@
 
 
 pjp_dicc <- function(df, truncate = TRUE, nn = 100) {
-    df_aa <- pjpv.curso.2022::pjp_estadisticos_basicos(df)
-    df_bb <- pjpv.curso.2022::pjp_unique_values(df, truncate = truncate, nn = nn)
+    df_aa <- pjpv.curso.R.2022::pjp_estadisticos_basicos(df)
+    df_bb <- pjpv.curso.R.2022::pjp_unique_values(df, truncate = truncate, nn = nn)
     dicc_df <- dplyr::bind_cols(df_aa, df_bb)
     dicc_df <- dicc_df %>% dplyr::select(variable, type, nn_unique, unique_values, q_na, p_na, p_zeros, min, max, mean, sd, NN, NN_ok)
 

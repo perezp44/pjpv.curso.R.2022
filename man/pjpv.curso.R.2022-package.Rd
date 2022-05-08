@@ -8,6 +8,14 @@
 \description{
 El package pjpv.curso.R.2022 sirve de apoyo a mis cursos. Me sirve para cargar algunas funciones y conjuntos de datos.
 }
+\seealso{
+Useful links:
+\itemize{
+  \item \url{https://github.com/perezp44/pjpv.curso.R.2022}
+  \item Report bugs at \url{https://github.com/perezp44/pjpv.curso.R.2022/issues}
+}
+
+}
 \author{
 \strong{Maintainer}: Pedro J. Perez \email{pedro.j.perez@uv.es}
 
