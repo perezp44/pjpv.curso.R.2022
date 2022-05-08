@@ -1,0 +1,23 @@
+Package: pjpv.curso.R.2022
+Title: Paquete de apoyo a mis cursos
+Version: 0.0.0.9000
+Authors@R: 
+    person("Pedro J.", "Perez", , "pedro.j.perez@uv.es", role = c("aut", "cre"))
+Description: El package pjpv.curso.R.2022 sirve de apoyo a mis cursos. Me
+    sirve para cargar algunas funciones y conjuntos de datos.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+LazyDataCompression: xz
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
+Imports: 
+    dplyr,
+    generics,
+    ggplot2,
+    magrittr,
+    stringr,
+    tibble,
+    utils
+Depends: 
+    R (>= 2.10)
