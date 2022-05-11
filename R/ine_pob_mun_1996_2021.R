@@ -12,7 +12,7 @@
 #'   \item ine_muni: Código INE del municipio (5 dígitos). Character
 #'   \item ine_muni.n: Nombre del municipio (en 2020). Character
 #'   \item year: año. Numeric
-#'   \item poblacion: Población (Total, Hombres, Mujeres)
+#'   \item poblacion: Población (Total, Hombres, Mujeres). Character
 #'   \item values: Nº de personas. Numeric
 #'   \item ine_muni.n.orig: Nombre del municipio (en el año corriente, year). Character
 #'   \item ine_prov: Codigo INE de la provincia (2 dígitos). Character
